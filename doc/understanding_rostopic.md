@@ -16,6 +16,6 @@
 >$ rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'
 >$ rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
 ## 显示主题的发布率
-> rostopic hz [topic]
+>$ rostopic hz [topic]
 ## 画出发布在topic上的数据变化图
-> rosrun rqt_plot rqt_plots
+>$ rosrun rqt_plot rqt_plots
