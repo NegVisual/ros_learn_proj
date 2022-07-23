@@ -26,3 +26,12 @@ void chatterCallback(const std_msgs::String::ConstPtr& msg)
 ```
 4. 订阅chatter 主题,以及传入 订阅消息事件回调函数chatterCallback  并 返回一个订阅者sub
 > ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+
+
+# Cmake 编译 增加依赖
+## 指定talker.cpp 生产可执行文件
+> add_executable(talker src/talker.cpp)
+## 连接相关的库文件
+> target_link_libraries(talker ${catkin_LIBRARIES})
+## 添加相关的依赖项
+> add_dependencies(talker beginner_tutorials_generate_messages_cpp)
