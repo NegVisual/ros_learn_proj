@@ -55,6 +55,7 @@ include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.di
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_Num.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddThreeInts.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py
 
@@ -69,21 +70,29 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lyy
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV beginner_tutorials/AddTwoInts"
 	cd /home/lyy/ros_learn_proj/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv
 
+/home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddThreeInts.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddThreeInts.py: /home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/srv/AddThreeInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV beginner_tutorials/AddThreeInts"
+	cd /home/lyy/ros_learn_proj/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/srv/AddThreeInts.srv -Ibeginner_tutorials:/home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv
+
 /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_Num.py
 /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for beginner_tutorials"
+/home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddThreeInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for beginner_tutorials"
 	cd /home/lyy/ros_learn_proj/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg --initpy
 
 /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_Num.py
 /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for beginner_tutorials"
+/home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddThreeInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for beginner_tutorials"
 	cd /home/lyy/ros_learn_proj/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv --initpy
 
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py
 beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/_Num.py
 beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/_AddThreeInts.py
 beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/msg/__init__.py
 beginner_tutorials_generate_messages_py: /home/lyy/ros_learn_proj/catkin_ws/devel/lib/python3/dist-packages/beginner_tutorials/srv/__init__.py
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build.make

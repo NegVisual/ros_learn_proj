@@ -55,6 +55,7 @@ include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddThreeInts.lisp
 
 
 /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
@@ -67,9 +68,15 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp: /home/l
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from beginner_tutorials/AddTwoInts.srv"
 	cd /home/lyy/ros_learn_proj/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv
 
+/home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddThreeInts.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddThreeInts.lisp: /home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/srv/AddThreeInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lyy/ros_learn_proj/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from beginner_tutorials/AddThreeInts.srv"
+	cd /home/lyy/ros_learn_proj/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/srv/AddThreeInts.srv -Ibeginner_tutorials:/home/lyy/ros_learn_proj/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv
+
 beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp
 beginner_tutorials_generate_messages_lisp: /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp
 beginner_tutorials_generate_messages_lisp: /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp
+beginner_tutorials_generate_messages_lisp: /home/lyy/ros_learn_proj/catkin_ws/devel/share/common-lisp/ros/beginner_tutorials/srv/AddThreeInts.lisp
 beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_lisp
